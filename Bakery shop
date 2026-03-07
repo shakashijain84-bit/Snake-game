@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sweet Crumbs Bakery</title>
+<style>
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#fff8f2;
+}
+
+header{
+background:#d2691e;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+nav{
+background:#f4a460;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+margin:15px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+section{
+padding:30px;
+text-align:center;
+}
+
+.products{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:15px;
+border-radius:10px;
+width:200px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+footer{
+background:#d2691e;
+color:white;
+text-align:center;
+padding:10px;
+margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Sweet Crumbs Bakery</h1>
+<p>Freshly baked happiness every day</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Menu</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</nav>
+
+<section>
+<h2>Our Popular Items</h2>
+
+<div class="products">
+
+<div class="card">
+<h3>Chocolate Cake</h3>
+<p>Rich and creamy chocolate delight</p>
+<p>₹450</p>
+</div>
+
+<div class="card">
+<h3>Fresh Bread</h3>
+<p>Soft homemade bread</p>
+<p>₹60</p>
+</div>
+
+<div class="card">
+<h3>Cupcakes</h3>
+<p>Colorful and tasty cupcakes</p>
+<p>₹120</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>Contact Us</h2>
+<p>📍 Ahmedabad</p>
+<p>📞 +91 9876543210</p>
+</section>
+
+<footer>
+<p>© 2026 Sweet Crumbs Bakery</p>
+</footer>
+
+</body>
+</html>
